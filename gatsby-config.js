@@ -6,7 +6,7 @@ module.exports = {
       options: {
         typeName: 'WPGraphQL',
         fieldName: 'wpgraphql',
-        url: 'https://empty-earthworm-7e7c5c.saucer.dev/graphql'
+        url: 'https://thick-anteater-179ac4.saucer.dev/graphql'
       }
     }
   ]
