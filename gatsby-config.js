@@ -6,7 +6,7 @@ module.exports = {
       options: {
         typeName: 'WPGraphQL',
         fieldName: 'wpgraphql',
-        url: 'https://thick-anteater-179ac4.saucer.dev/graphql'
+        url: process.env.WORDPRESS_URL + '/graphql'
       }
     }
   ]

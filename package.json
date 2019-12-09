@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "gatsby develop"
+    "start": "dotenv gatsby develop"
   },
   "eslintConfig": {
     "extends": "@trevorblades/eslint-config/react"
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@trevorblades/eslint-config": "^7.0.2",
+    "dotenv-cli": "^3.1.0",
     "eslint": "^6.7.2"
   }
 }
