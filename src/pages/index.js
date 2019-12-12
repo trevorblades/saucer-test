@@ -16,7 +16,7 @@ export default function Home(props) {
       <p>{description}</p>
       {posts.nodes.map(node => (
         <div key={node.id}>
-          <h3>
+          <h3 style={{color: 'red'}}>
             <Link to={`/posts/${node.slug}`}>{node.title}</Link>
           </h3>
           <h5>Posted on {new Date(node.date).toLocaleDateString()}</h5>
