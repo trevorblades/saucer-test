@@ -6,7 +6,7 @@
     "extends": "@trevorblades/eslint-config/react"
   },
   "dependencies": {
-    "gatsby": "^2.18.7",
+    "gatsby": "^5.16.1",
     "gatsby-plugin-react-helmet": "^3.1.16",
     "gatsby-source-graphql": "^2.1.25",
     "prop-types": "^15.7.2",
